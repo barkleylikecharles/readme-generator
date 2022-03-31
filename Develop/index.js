@@ -88,12 +88,12 @@ const questions  = ( )=> {
       {
         type: 'input',
         name: 'link',
-        message: 'Enter the GitHub link to your project. (Required)',
+        message: 'Enter your GitHub link. (Required)',
         validate: linkInput => {
             if (linkInput) {
                 return true;
             } else {
-                console.log('You need to enter a project GitHub link!');
+                console.log('You need to enter a GitHub link!');
                 return false;
             }
         }
@@ -107,6 +107,19 @@ const questions  = ( )=> {
                 return true;
             } else {
                 console.log('You need to enter a link!');
+                return false;
+            }
+        }
+      },
+      {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address? (Required)',
+        validate: websiteInput => {
+            if (websiteInput) {
+                return true;
+            } else {
+                console.log('You need to enter a valid email!');
                 return false;
             }
         }

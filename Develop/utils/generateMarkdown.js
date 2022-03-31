@@ -14,6 +14,35 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ## Description
+  ${data.description}
+
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing]{#credit}
+  * [Tests](#tests)
+  * [Questions](#questions)
+
+  ## Installation
+  ${data.installation}
+
+  ## Usage
+  ${data.usage}
+
+  ## License
+  This project is licence under ${data.license}
+
+  ## Contributing
+  ${data.credit}
+
+  ## Tests
+  ${data.test}
+
+  ## Questions
+  If you have any questions about this project, please contact me directly at ${data.email}. You can view more projects at https://github.com/${data.link}}.
+
 `;
 }
 
