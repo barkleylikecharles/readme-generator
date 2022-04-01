@@ -1,31 +1,33 @@
-# Mocp;e
+# Barkley READ ME Generator
+
+  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 
   ## Description
-  akodf'kew
+  An application that helps the user create a comprehensive README file to include with their project.
 
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
   * [Contributing]{#credit}
-  * [Tests](#tests)
+  * [Tests](#test)
   * [Questions](#questions)
 
   ## Installation
-  sjfp'wjefo'e
+  github
 
   ## Usage
-  fjopew'jfoea
+  node.js
 
   ## License
   This project is licence under MIT
 
   ## Contributing
-  tjoepwa'jofw
+  barkleylikecharles
 
   ## Tests
-  jfowejf
+  N/A
 
   ## Questions
-  If you have any questions about this project, please contact me directly at jfiow'jfe'a. You can view more projects at https://github.com/$data.link}.
+  If you have any questions about this project, please contact me directly at barkleylikecharles@icloud.com. You can view more projects at https://github.com/https://github.com/barkleylikecharles}.
 

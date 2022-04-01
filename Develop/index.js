@@ -75,7 +75,7 @@ const questions  = ( )=> {
       {
         type: 'input',
         name: 'test',
-        message: 'Provide test instructions (Required)',
+        message: 'Provide any test instructions (Required)',
         validate: testInput => {
             if (testInput) {
                 return true;
@@ -88,7 +88,7 @@ const questions  = ( )=> {
       {
         type: 'input',
         name: 'link',
-        message: 'Enter your GitHub link. (Required)',
+        message: 'Enter your GitHub profile link. (Required)',
         validate: linkInput => {
             if (linkInput) {
                 return true;
@@ -98,19 +98,7 @@ const questions  = ( )=> {
             }
         }
       },
-      {
-        type: 'input',
-        name: 'website',
-        message: 'What is the live website link? (Required)',
-        validate: websiteInput => {
-            if (websiteInput) {
-                return true;
-            } else {
-                console.log('You need to enter a link!');
-                return false;
-            }
-        }
-      },
+    
       {
         type: 'input',
         name: 'email',
@@ -124,30 +112,18 @@ const questions  = ( )=> {
             }
         }
       },
-      {
-        type: '',
-        name: 'description',
-        message: 'Provide a description of the project (Required)',
-        validate: descriptionInput => {
-            if (descriptionInput) {
-                return true;
-            } else {
-                console.log('You need to enter a project description!');
-                return false;
-            }
-        }
-      },
+    
       {
         type: 'list',
         name: 'license',
         message: 'What kind of license should your project have?',
         choices: ['MIT', 'GNU'],
         default: ["MIT"],
-        validate: descriptionInput => {
-            if (descriptionInput) {
+        validate: licenseInput => {
+            if (licenseInput) {
                 return true;
             } else {
-                console.log('You need to enter a project description!');
+                console.log('You need to choose a license');
                 return false;
             }
         }
@@ -174,9 +150,7 @@ const writeFile = data => {
         }
     })
 }; 
-// // TODO: Create a function to initialize app
-// function init() {}
-// Initialize program
+//Function to initalize app
 questions()
 //Get user answers
 .then(answers => {
@@ -186,9 +160,8 @@ questions()
 .then(data => {
     return writeFile(data);
 })
-// Catching errors
+// Catch errors
 .catch(err => {
     console.log(err)
 })
-// // Function call to initialize app
-// init();
+
