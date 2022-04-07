@@ -1,14 +1,20 @@
-# Professional README Generator Starter Code
+# Professional README Generator
 
 [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
-# Work Day Scheduler
-
 ## Installation
-Updated and functional code can be cloned at https://github.com/barkleylikecharles/work-day-scheduler.
+npm init
+
+npm install inquirer
 
 ## Usage
-Utilize this daily calendar planner to add meetings and deadlines to your schedule in hourly segments. Updates in real time to show you which calendar items have passed, which are current and which are upcoming to help keep you on track. Local storage adds the functionality of this application. Good luck and get planning!
+Run the following command using inquirer at the root of your project and answer the prompted questions:
+
+node index.js
+
+<iframe src="https://drive.google.com/file/d/19iBOgRg-St_l-HOmxES8HoWZiDsQgawM/preview" width="640" height="480"></iframe>
+
+Or view here on Screencastify https://drive.google.com/file/d/19iBOgRg-St_l-HOmxES8HoWZiDsQgawM/view
 
 ## Credits
 Project Completed by Nicole Barkley. [GitHub Profile] (https://github.com/barkleylikecharles)
@@ -17,9 +23,6 @@ Starter code for project cloned from https://github.com/coding-boot-camp/super-d
 
 ## Website
 https://barkleylikecharles.github.io/work-day-scheduler/
-
-## Screenshot
-image
 
 ## License
 MIT License
