@@ -1,10 +1,8 @@
 
-  <h1 align="center">Nicole's Test Readme </h1>
-
-  ![badge](https://img.shields.io/badge/license-Apache 2.0-brightgreen)
+  # Nicole Barkley's ReadMe Generator Test
 
   ## Description
-  I am testing this readme generator to ensure that it returns a professional readme for future projects
+  Create a professional readme generator with this generator.  Enter all pertinent information, and this will generate a professional ReadMe for your project using markdown language.
 
   ## Table of Contents
   * [Installation](#installation)
@@ -15,16 +13,16 @@
   * [Questions](#questions)
 
   ## Installation
-  Install Node.js
+  Install node on your computer.  Grab the code from https://github.com/barkleylikecharles/readme-generator
 
   ## Usage
-  Create a professional readme file for your project.
+  Create a professional readme for your project. 
 
   ## License
-  This project is licence under Apache 2.0
+  This project is licence under MIT
 
   ## Contributing
-  Nicole Barkley
+  barkleylikecharles
 
   ## Tests
   N/A
