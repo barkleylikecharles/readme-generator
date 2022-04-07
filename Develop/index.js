@@ -117,7 +117,7 @@ const questions  = ( )=> {
         type: 'list',
         name: 'license',
         message: 'What kind of license should your project have?',
-        choices: ['MIT', 'GNU'],
+        choices: ['MIT', 'GNU', 'Apache 2.0'],
         default: ["MIT"],
         validate: licenseInput => {
             if (licenseInput) {
@@ -131,7 +131,7 @@ const questions  = ( )=> {
       {
         type: 'confirm',
         name: 'confirmCreateReadme',
-        message: 'Would you like to generate README?',
+        message: 'Would you like to generate the README?',
         default: true,
       }
     ]);
